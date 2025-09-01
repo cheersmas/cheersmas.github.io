@@ -224,7 +224,7 @@ img {
 
 /* images should cover the area, but videos often need to be fully visible -> use contain */
 .media-wrap img {
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 .media-wrap video {
